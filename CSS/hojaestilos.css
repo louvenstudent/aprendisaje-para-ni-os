@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    
+}
+
+nav {
+    background: rgb(91, 147, 130);
+    height: 80px;
+    width: 100%;
+
+} 
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+}
+.logo{
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li {
+    display:inline-block;
+    line-height: 80px;
+    margin:  0 5px;
+}
+nav ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+/*Inicio*/
+.InicioClass {
+    padding-top: 100px;
+   
+}
+.pie  {
+    position: relative;
+    top: 100px;
+    background-color: rgb(50, 60, 60);
+    margin-top: 20px;
+    color: wheat;
+    padding: 20px;
+    width: 100%;
+}
+.imagenc {
+   position: relative;
+   margin: 40px;
+    
+}
+    
+
+
+.pie div {
+    position: relative;
+    display: inline-block;
+    margin: 40px;
+    
+
+}
+.InicioClass h2{
+    color: rgb(53, 53, 47);
+}
+.InicioClass h1{
+    color: rgb(53, 53, 47);
+}
+.InicioClass p {
+    font-family: cursive;
+}
+/*intruciones*/
+.instruc {
+    position: relative;
+    margin:40px;
+    
+}
+video {
+    position: relative;
+    left: 90px;
+}
+.cruerpo2{
+    
+    position: relative;
+    top:20px;
+    background: url(../IMG/Libro\ del\ conocimiento.gif) no-repeat  ;
+    height: 100%;
+    background-position: center center;
+    height: 100vh; 
+    border-radius: 10px;
+}
+
+.video {
+    border-radius: 10px;
+}
+li a:hover{
+    background: rgb(43, 76, 86); 
+    transition: -5s;
+}
+
+
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.cruerpo div.boton li a {
+    position: relative;
+    left: 700px;
+    color: #fff;
+    text-decoration: none;
+    background: #3088e0;
+    padding: 16px 37px;
+    border-radius: 50px;
+    position: relative;
+    top: 30px;
+    text-align: center;
+    
+    text-transform: uppercase;
+}
+
+
+@media(max-width:952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media(max-width:700px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgb(73, 106, 122);
+        top: 80px;
+        left: 100%;
+        text-align: center;
+        transition: all 01s;
+    }
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active1 {
+        background: none;
+        color: rgb(18, 11, 21);
+    }
+    
+    #check:checked ~ ul{
+        left: 0;
+    }
+}
+/*lenguaje */
+#checksub{
+    display: none;
+}
+
